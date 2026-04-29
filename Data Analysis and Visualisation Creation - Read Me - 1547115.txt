@@ -1,0 +1,89 @@
+Read Me
+
+The visualizations are submitted as JPEG files. 
+This read me section is to show the process of re-creating the visualizations.
+
+Visualization 1
+
+Dataset:
+Online Source of Dataset: https://data-rnli.opendata.arcgis.com/datasets/rnli-return-of-service/explore?location=55.082500%2C-4.678042%2C5
+Filtered Porthcawl: RNLI_Return_of_Servicev FILTERED PORTHCAWL 2021 - 2025.csv
+Filtered Wales: RNLI_Return_of_Service_WALES.csv
+
+Tools:
+Python - Jupyter Notebook
+Google Earth
+Photoshop (CS3 or Higher) - older version might be compatible but was not tested
+Pen and paper for hand drawing
+
+Workflow:
+
+Python (notebook included)
+Run (porthcawl-v7.ipynb)
+Link or read the included datasets
+Or
+EDA (Details in notebook)
+Create a table or chart showing how much more incidents Porthcawl stations have compared to the average Wales station. (this is just for reference)
+Create and save horizontal stacked bar charts of Porthcawl and All Wales incidents
+Create two versions of the stacked bar chart with and without the labels.
+
+
+Google Earth (link to custom map and screenshot included)
+Upload GPS and ‘Incidents’ data to custom Google Earth map for Porthcawl
+View in ‘3D’ mode and align to an angle and tilt that mimics what the audience would roughly see while standing in the location of the ‘visualization poster’, while also balancing maximum visualisation of the GPS incidents markers.
+Screenshot the final ‘background photo’
+
+Pen and paper (sketches included)
+See how many incidents you can see in the Google Earth ‘background photo’ you made.
+Draw figures for each one of them, reflecting the nature of the ‘incidents’.
+Take photos of figures
+
+Photoshop (original PSD file and short video demonstration are included)
+Install ‘RNLI’  typeface ‘alte-din-1451-mittelschrift’
+Use RNLI palette as reference for color matching
+Create an A0 size poster blank canvas (841 mm x 1189 mm at 600 dpi)
+Google Earth Screenshot as first ‘base layer’
+Copy the base layer but convert it to a ‘Sketch’ using photoshop sketchtools such as gaussian filters, 
+remove text and GPS markings. 
+The sketch layer for this visualization was made using a composite of about 10 different layers. 
+One generated from Google Gemini using the original Google Earth screenshot as a reference. 
+Then several layers of Photoshop filtered and altered images. Reducing and adding details according to preference.
+Temporarily reduce the opacity of the ‘sketch layer’ to 50% to allow the GPS markings to show through for now.
+Upload the unlabelled version of the stacked bar charts, 
+use the labelled version as a reference to relabel the bars using custom RNLI typeface and add or reduce details when necessary.
+Connect the Porthcawl and Wales bar chart using a middle ‘connecting bar chart layer’ using custom opacified shapes. 
+Label these according to how much more or less Porthcawl had compared to an average Wales station.
+Upload the hand drawn ‘figures’ to Photoshop as separate layers.
+Clean the drawings and delete the backgrounds, leaving only the drawing themselves.
+Overlap the figures into the rough area where an incident was marked by GPS data.
+Create a short description using the dataset information for selected figures
+Bring back the opacity of the ‘sketch layer’ to normal levels (100%). Now, you should not be able to see the original Google earth photo behind it and its GPS markings.
+Add additional layers of logos, flags and text, according to preference.
+END
+
+
+Visualization 2
+
+Dataset: (same as Viz 1)
+Online Source of Dataset: https://data-rnli.opendata.arcgis.com/datasets/rnli-return-of-service/explore?location=55.082500%2C-4.678042%2C5
+Filtered Porthcawl: RNLI_Return_of_Servicev FILTERED PORTHCAWL 2021 - 2025.csv
+Filtered Wales: RNLI_Return_of_Service_WALES.csv
+
+Tools:
+Python - Jupyter Notebook (uses same notebook file as Viz 1) (porthcawl-v7.ipynb)
+Photoshop (CS3 or Higher) - older version might be compatible but was not tested
+
+
+Workflow:
+Run python notebook (porthcawl-v7.ipynb)
+Use saved png charts for Photoshop.
+
+Photoshop (original PSD file and short video demonstration are included)
+
+Create an A4 size poster blank canvas at 600 dpi
+Use RNLI color palette as reference image for color matching
+Use RNLI logo included
+Create 4 opacified shapes to divide the lower half of the canvas into four equal portions.
+Import the individual charts as individual layers and arrange accordingly. 
+Type in titles, labels and other information.
+END
